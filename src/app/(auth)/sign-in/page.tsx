@@ -4,6 +4,7 @@ import * as React from "react";
 import Link from "next/link";
 import { FC } from "react";
 import SignIn from "@/components/SignIn";
+import { ChevronLeft } from "lucide-react";
 
 const page: FC = () => {
   return (
@@ -16,7 +17,7 @@ const page: FC = () => {
             "self-start -mt-20"
           )}
         >
-          Home
+          <ChevronLeft className="mr-2 h-4 w-4" /> Home
         </Link>
 
         <SignIn />
