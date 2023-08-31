@@ -20,7 +20,7 @@ const Navbar = async () => {
 
         {/* Search bar */}
         {session ? (
-          <p>You are Logged in</p>
+          <p>You are Logged in ☕️</p>
         ) : (
           <Link href="/sign-in" className={buttonVariants()}>
             Sign In
